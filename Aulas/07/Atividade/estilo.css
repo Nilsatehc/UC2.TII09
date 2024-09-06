@@ -1,0 +1,17 @@
+h1 h2 /* seletor ou selector */ {
+    
+    color : blueviolet;
+    text-align: center;
+}
+p/* seletor ou selector */{
+    color: deepskyblue;
+    font-size: 18px;
+    
+}
+button/* seletor ou selector */{
+    background-color: plum;
+    color: black;
+}
+pre{
+    background-color: rgb(233, 229, 229);
+}

@@ -1,0 +1,12 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+p{
+    color: deepskyblue;
+    font-size: 18px;
+}
+button{
+    background-color: plum;
+    color: black;
+}
