@@ -1,0 +1,45 @@
+header{
+    background-color: #222425;
+    color: white;
+    padding: 5px 20px 5px 20px;
+     text-align: center;
+     margin: 0px 0px 50px 0px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li a{
+    display: inline;
+    margin-right: 15px; 
+    color: white;
+}
+/*Estilos para o conteudo principa*/
+main{
+    margin: 15px;
+    padding: 20px;
+    background-color: #e7e8e9ef;
+}
+section{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+/*Estilos para o conteudo complementar (aside)*/
+aside{
+    background-color: #ccd4db;
+    padding: 15px;
+    border-left: 5px solid #384247;
+}
+/* Estilos para o rodapé*/
+footer{
+    background-color: #222425;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
