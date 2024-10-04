@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <header>
+    <h1>Grid Layout e Suas Propriedades</h1>
+</header>
+<main>
+    <h2>Introdução</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas aliquid molestiae totam dicta voluptate necessitatibus vero sunt ut! Cupiditate magni architecto harum, facilis commodi veritatis necessitatibus voluptatibus officiis nesciunt provident!</p>
+<hr>
+<h2>Estrutura Básica do Grid</h2>
+<p> para criar um layout grid,primeiro devemos definir um container que irá como grade.Dentro deste container ,os items se alinham conforme as colunas e linhas definidas
+</p>
+<pre>
+    <code>
+        div class="grid-container">
+            div class="item item1">Item 1 div
+            div class="item item2">Item 2 div
+            div class="item item3">Item 3 div
+            div class="item item4">Item 4 div
+        div
+        .grid-container{
+            display: grid; /* define o container como grid*/
+            grid-template-columns: 200px 200px; /* define duas colunas de 200px cada*/
+            grid-template-rows: 150px 150px;
+            gap: 10px;
+            background-color: lightblue;
+        }
+    </code>
+</pre>
+<hr>
+<h2> Ajustando Colunas e Linhas Com o <em>fr</em></h2>
+<p>
+    Unidade <em>fr</em> (fraction unit) é muito útil se deseja criar
+    colunas ou linhas proporcionais, distribuindo o espaço disponível entre os itens.
+</p>
+<hr>
+<h2>Posicionamento Explícito de Itens</h2>
+        <p>
+            Com o Grid, você pode controlar exatamente onde cada item será
+            poiscionado.
+        </p>
+</main>
+</body>
+</html>
